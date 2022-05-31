@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepare": "yarn build"
   },
   "name": "my-lib",
   "version": "1.0.0",
