@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "name": "my-lib",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/my-lib.js",
+  "module": "dist/my-lib.mjs",
+  "typings": "dist/my-lib.d.ts",
+  "devDependencies": {
+    "class-transformer": "^0.5.1",
+    "esbuild": "^0.14.42",
+    "rollup": "^2.75.3",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-esbuild": "^4.9.1"
+  },
+  "dependencies": {
+    "typescript": "^4.7.2"
+  }
+}
